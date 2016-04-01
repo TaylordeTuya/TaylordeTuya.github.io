@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+
+body {
+  background-color: rgba(249,	179,	244, 0.2);
+  font-size: 16px;
+  font-family: 'Crimson Text', serif;
+  color: black;
+}
+
+
+
+#wrap {
+  max-width: 960px;
+  min-width: 50px;
+  padding: 50px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid rgba(130, 123,	148, 0.8);
+}
+
+
+
+/*nav*/
+nav, ul {
+list-style-type: none;
+}
+
+nav, li {
+display: inline-block;
+margin: 0 auto;
+padding: 10px 46px;
+font-family: 'Crimson Text', serif;
+font-size: 16px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+
+
+/*links*/
+a {
+  color: gray;
+}
+
+a:visited {
+  color: rgba(130, 123,	148, 0.8);
+}
+
+a:hover{
+  color: rgba(220,	132,	159, 0.5);
+  text-decoration: underline;
+}
+
+
+
+/*headers*/
+h1 {
+  margin: 100px 345px;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+h3 {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+/*divs*/
+#rightcol, #leftcol {
+  max-width: 440px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  display: block;
+}
+
+#rightcol {
+  margin-top: 135px;
+}
+
+#socialmedia {
+  float: right;
+}
+
+#lang {
+  float:right;
+  margin-right: 80px;
+}
