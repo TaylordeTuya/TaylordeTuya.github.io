@@ -14,10 +14,12 @@ body {
 #about {
   max-width: 320px;
   max-height: 568px;
+  margin-left: 20px;
 }
 
 #about img {
   float: none;
+  margin-right: 10px;
 }
 
 #bio {
@@ -27,6 +29,10 @@ body {
 #design {
   max-width: 320px;
   max-height: 568px;
+}
+
+#photography {
+  width: 320px;
 }
 
 #writing {
