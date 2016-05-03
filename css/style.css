@@ -40,7 +40,7 @@ a:hover{
 /*index*/
 
 #index {
-  background-image: url("backgroundimage.jpg");
+  background-image: url("../backgroundimage.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
