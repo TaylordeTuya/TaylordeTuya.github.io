@@ -22,8 +22,9 @@ body {
   float: none;
 }
 
-#about #bio {
+#bio {
   float: none;
+  width: 320px;
 }
 
 }
