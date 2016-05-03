@@ -2,25 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 
 
-body {
-  background-color: rgba(249,	179,	244, 0.2);
-  font-size: 16px;
-  font-family: 'Crimson Text', serif;
-  color: black;
-}
-
-
-
-#wrap {
+ body {
   max-width: 960px;
   min-width: 50px;
-  padding: 50px;
-  margin: 20px auto;
+  margin: 0 auto;
   display: block;
-  border: 2px solid rgba(130, 123,	148, 0.8);
+  overflow: none;
 }
-
-
 
 /*nav*/
 nav, ul {
@@ -30,70 +18,261 @@ list-style-type: none;
 nav, li {
 display: inline-block;
 margin: 0 auto;
-padding: 10px 46px;
+padding: 20px 50px;
 font-family: 'Crimson Text', serif;
 font-size: 16px;
 }
+
 
 nav a{
   text-decoration: none;
 }
 
-
-
 /*links*/
 a {
-  color: gray;
-}
-
-a:visited {
-  color: rgba(130, 123,	148, 0.8);
+  color: white;
 }
 
 a:hover{
-  color: rgba(220,	132,	159, 0.5);
-  text-decoration: underline;
+  color: black;
 }
 
+/*index*/
 
+#index {
+  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/backgroundimage.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-/*headers*/
-h1 {
-  margin: 100px 345px;
+#index h1 {
+  margin-top: 130px;
   font-family: 'Petit Formal Script', cursive;
-  font-size: 25px;
+  font-size: 70px;
+  color: white;
+  text-align: center;
 }
 
-h2 {
-  font-size: 22px;
-  margin-bottom: 50px;
-  margin-top: 80px;
+#index p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/*about*/
+
+#about {
+  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/backgroundimage.jpg);
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+#about h1 {
+  margin: 0 auto;
+  text-align: center;
   font-family: 'Petit Formal Script', cursive;
+  margin-left: 10px;
+  font-size: 70px;
+  color: white;
+  overflow: auto;
 }
 
-h3 {
+#bio p {
+  padding: 20px 0px;
   font-size: 16px;
-  text-decoration: underline;
+  font-family: 'Crimson Text', serif;
+  color: black;
+  position: relative;
 }
 
-/*divs*/
-#rightcol, #leftcol {
-  max-width: 440px;
+#bio {
+  float: right;
+  width: 500px;
+  height: 540px;
+  padding: 0px 10px;
+  display:block;
+  background-color: rgba(122, 121, 130, 0.8);
+  border: 2px solid rgba(122, 121, 130, 0.9);
+  overflow: auto;
+}
+
+#about img {
   float: left;
-  margin-right: 40px;
-  margin-bottom: 60px;
-  display: block;
+  margin-left: 50px;
+  display:block;
+  border: 2px solid rgba(122, 121, 130, 0.9);
 }
 
-#rightcol {
-  margin-top: 135px;
+/*Design*/
+#design {
+  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/Backgroundimage2.jpg);
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+#design h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  overflow: auto;
+}
+
+#magazine iframe {
+  display: block;
+  height: 500px;
+  width: 925px;
+}
+
+#magazine {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+#juicecampaign {
+  display: block;
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+#photography {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+#photography #photo1 {
+  display: block;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#photography #photo2 {
+  display: block;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#photography #photo3 {
+  display: block;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#newsletter {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+#brochure {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*prwriting*/
+#writing {
+  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/Backgroundimage2.jpg);
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+#writing h1 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  margin-left: 190px;
+}
+
+#featurestory {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+#pitch {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+#coverletter {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+#newsrelease {
+  background-color: rgba(122, 121, 130, 0.2);
+  padding: 10px;
+  padding-left: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+#contact {
+  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/backgroundimage.jpg);
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+#contact h1 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 15px;
+}
+
+#directcontact {
+  background-color: rgba(231, 231,	231, 0.4);
+  margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+
 }
 
 #socialmedia {
-  float: right;
-}
-
-#lang {
-  float:right;
-  margin-right: 80px;
+  background-color: rgba(231, 231,	231, 0.4);
+  margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
 }

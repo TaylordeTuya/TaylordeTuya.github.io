@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script);
 
 
 * {
   background: transparent; !important
   color: black;
   font-family: 'Times New Roman' 'Times' serif;
-  font-size: 10pt;
+  font-size: 9pt;
 }
 
 
@@ -15,12 +15,9 @@
 }
 
 
-
-
 nav {
   display: none;
 }
-
 
 
 a {
@@ -36,41 +33,102 @@ footer {
   display: none;
 }
 
+head, title {
+  display: none;
+}
+
 
 /*headers*/
   h1 {
     font-family: 'Petit Formal Script', cursive;
-    font-size: 14pt;
+    font-size: 12pt;
     text-align: center;
     margin-bottom: 0.2in;
   }
 
   h2 {
     font-family: 'Times New Roman' serif;
-    font-size: 12pt;
-    text-align: left;
-  }
-
-  h3 {
     font-size: 10pt;
-    margin: auto 0in;
+    text-align: center;
     text-decoration: underline;
   }
 
+  h3 {
+    font-size: 9pt;
+    margin: auto 0in;
+    text-decoration: none;
+  }
+
 /*divs*/
-#leftcol, #rightcol {
-  float: left;
-  max-width: 48%;
+#experience {
+  position: relative;
 }
 
 #rightcol {
-  margin-right: 10%;
+  position: absolute;
+  left: 3.75in;
 }
 
 #leftcol {
-  margin-right: 10%
+  position: absolute;
+  right: 3.75in;
 }
 
-#lang {
-  display: none;
+#volunteerwork {
+  position: relative;
+  margin-top: 4.2in;
+}
+
+#redeemer {
+  position: absolute;
+  right: 3.75in;
+}
+
+#lifechurch {
+  position: absolute;
+  left: 3.75in;
+}
+
+#contact, #skills {
+  margin-top: 1in;
+  max-width: 8.5in;
+  float: left;
+}
+
+#contact {
+  overflow: auto;
+  float: right;
+  margin-left: .55in;
+}
+
+#skills {
+  overflow: auto;
+  float: left;
+}
+
+#programs {
+  overflow: auto;
+  float: right;
+  margin-left: 1in;
+  max-height: 1.2in;
+}
+
+#language {
+  overflow: auto;
+  float: left;
+}
+
+#directcontact {
+  overflow: auto;
+  float: left;
+  display: block;
+  max-width: 1.3in;
+}
+
+#socialmedia {
+  overflow: auto;
+  float: right;
+  display: block;
+  max-width: 2in;
+  margin-left: .5in;
 }
