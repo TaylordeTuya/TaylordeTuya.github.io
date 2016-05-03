@@ -40,7 +40,7 @@ a:hover{
 /*index*/
 
 #index {
-  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/backgroundimage.jpg);
+  background-image: url(backgroundimage.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
