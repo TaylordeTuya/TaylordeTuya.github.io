@@ -4,45 +4,278 @@
 body {
   font-family: 'Crimson Text', serif;
   font-size: 12px;
-}
-
-#index {
   max-width: 320px;
   max-height: 568px;
-}
+  margin: 0 auto;
+  display: block;
+  overflow: none;
+ }
 
-#about {
-  max-width: 320px;
-  max-height: 568px;
-  margin-left: 20px;
-}
+ /*nav*/
+ nav, ul {
+ list-style-type: none;
+ }
 
-#about img {
-  float: none;
-  margin-right: 10px;
-}
+ nav, li {
+ display: inline-block;
+ margin: 0 auto;
+ padding: 20px 50px;
+ font-family: 'Crimson Text', serif;
+ font-size: 16px;
+ }
 
-#bio {
-  float: none;
-}
 
-#design {
-  max-width: 320px;
-  max-height: 568px;
-}
+ nav a{
+   text-decoration: none;
+ }
 
-#photography {
-  width: 320px;
-}
+ /*links*/
+ a {
+   color: white;
+ }
 
-#writing {
-  max-width: 320px;
-  max-height: 568px;
-}
+ a:hover{
+   color: black;
+ }
 
-#contact {
-  max-width: 320px;
-  max-height: 568px;
-}
+ /*index*/
+
+ #index {
+   background-image: url("../img/backgroundimage.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+ #index h1 {
+   margin-top: 130px;
+   font-family: 'Petit Formal Script', cursive;
+   font-size: 70px;
+   color: white;
+   text-align: center;
+ }
+
+ #index p {
+   text-align: center;
+   color: white;
+   font-size: 20px;
+ }
+
+ /*about*/
+
+ #about {
+   background-image: url("../img/backgroundimage.jpg");
+   background-attachment: fixed;
+   background-size: auto;
+ }
+
+ #about h1 {
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'Petit Formal Script', cursive;
+   margin-left: 10px;
+   font-size: 70px;
+   color: white;
+   overflow: auto;
+ }
+
+ #bio p {
+   padding: 20px 0px;
+   font-size: 16px;
+   font-family: 'Crimson Text', serif;
+   color: black;
+   position: relative;
+ }
+
+ #bio {
+   float: right;
+   width: 500px;
+   height: 540px;
+   padding: 0px 10px;
+   display:block;
+   background-color: rgba(122, 121, 130, 0.8);
+   border: 2px solid rgba(122, 121, 130, 0.9);
+   overflow: auto;
+ }
+
+ #about img {
+   float: left;
+   margin-left: 50px;
+   display:block;
+   border: 2px solid rgba(122, 121, 130, 0.9);
+ }
+
+ /*Design*/
+ #design {
+   background-image: url("../img/backgroundimage2.jpg");
+   background-attachment: fixed;
+   background-size: auto;
+ }
+
+ #design h1 {
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'Petit Formal Script', cursive;
+   font-size: 30px;
+   margin-bottom: 20px;
+   color: white;
+   overflow: auto;
+ }
+
+ #magazine iframe {
+   display: block;
+   height: 500px;
+   width: 925px;
+ }
+
+ #magazine {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 20px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #juicecampaign {
+   display: block;
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 20px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   padding-bottom: 40px;
+ }
+
+ #photography {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 20px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #photography #photo1 {
+   display: block;
+   margin-left: 150px;
+   margin-bottom: 30px;
+ }
+
+ #photography #photo2 {
+   display: block;
+   margin-left: 150px;
+   margin-bottom: 30px;
+ }
+
+ #photography #photo3 {
+   display: block;
+   margin-left: 150px;
+   margin-bottom: 30px;
+ }
+
+ #newsletter {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 100px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #brochure {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 100px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ /*prwriting*/
+ #writing {
+   background-image: url("../img/backgroundimage2.jpg");
+   background-attachment: fixed;
+   background-size: auto;
+ }
+
+ #writing h1 {
+   font-family: 'Petit Formal Script', cursive;
+   font-size: 30px;
+   margin-bottom: 20px;
+   color: white;
+   margin-left: 190px;
+ }
+
+ #featurestory {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 150px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #pitch {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 150px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #coverletter {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 150px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #newsrelease {
+   background-color: rgba(122, 121, 130, 0.2);
+   padding: 10px;
+   padding-left: 150px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #contact {
+   background-image: url("../img/backgroundimage.jpg");
+   background-attachment: fixed;
+   background-size: auto;
+ }
+
+ #contact h1 {
+   font-family: 'Petit Formal Script', cursive;
+   font-size: 30px;
+   margin-bottom: 20px;
+   color: black;
+   text-align: center;
+ }
+
+ #contact h2 {
+   font-size: 15px;
+ }
+
+ #directcontact {
+   background-color: rgba(231, 231,	231, 0.4);
+   margin: 0 auto;
+   width: 400px;
+   padding: 10px;
+   text-align: center;
+
+ }
+
+ #socialmedia {
+   background-color: rgba(231, 231,	231, 0.4);
+   margin: 0 auto;
+   width: 400px;
+   padding: 10px;
+   margin-top: 20px;
+   text-align: center;
+ }
 
 }
