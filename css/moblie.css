@@ -5,6 +5,16 @@ body {
   font-family: 'Crimson Text', serif;
   font-size: 12px;
 }
+
+nav ul {
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px;
+}
+
 #index {
   max-width: 320px;
   max-height: 568px;
