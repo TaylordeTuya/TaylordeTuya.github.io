@@ -6,24 +6,23 @@ body {
   font-size: 12px;
 }
 
-nav ul {
-  float: left;
-}
-
-nav li {
-  list-style: circle;
-  display: inline-block;
-  text-align: left;
-
-}
-
 #index {
   max-width: 320px;
   max-height: 568px;
+  background-position: center;
 }
 
 #about {
   max-width: 320px;
   max-height: 568px;
 }
+
+#about img {
+  float: none;
+}
+
+#about #bio {
+  float: none;
+}
+
 }
