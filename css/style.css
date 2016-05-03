@@ -40,7 +40,7 @@ a:hover{
 /*index*/
 
 #index {
-  background-image: url("../img/backgroundimage.jpg");
+  background-image: url("./img/backgroundimage.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -62,7 +62,7 @@ a:hover{
 /*about*/
 
 #about {
-  background-image: url("../img/backgroundimage.jpg");
+  background-image: url("./img/backgroundimage.jpg");
   background-attachment: fixed;
   background-size: auto;
 }
@@ -105,7 +105,7 @@ a:hover{
 
 /*Design*/
 #design {
-  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/Backgroundimage2.jpg);
+  background-image: url("./img/backgroundimage2.jpg");
   background-attachment: fixed;
   background-size: auto;
 }
@@ -192,7 +192,7 @@ a:hover{
 
 /*prwriting*/
 #writing {
-  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/Backgroundimage2.jpg);
+  background-image: url("./img/backgroundimage2.jpg");
   background-attachment: fixed;
   background-size: auto;
 }
@@ -242,7 +242,7 @@ a:hover{
 }
 
 #contact {
-  background-image: url(file:///Users/taylordetuya/Documents/TaylordeTuya.github.io/backgroundimage.jpg);
+  background-image: url("./img/backgroundimage.jpg");
   background-attachment: fixed;
   background-size: auto;
 }
