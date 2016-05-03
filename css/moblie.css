@@ -7,12 +7,14 @@ body {
 }
 
 nav ul {
-  display: inline-block;
+  float: left;
 }
 
 nav li {
+  list-style: circle;
   display: inline-block;
-  padding: 0px;
+  text-align: left;
+
 }
 
 #index {
