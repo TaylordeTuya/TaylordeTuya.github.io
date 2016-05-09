@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script|Crimson+Text);
-
 @media (max-width: 320px) {
 
-* {
+body {
   font-family: 'Crimson Text', serif;
   font-size: 12px;
 }
