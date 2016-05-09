@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script|Crimson+Text);
+
+@media (max-width: 320px) {
+body {
+  font-family: 'Crimson Text', serif;
+  font-size: 12px;
+}
+
+/*nav*/
+nav, ul {
+display: none;
+}
+
+#index {
+display: none;
+}
+
+#about {
+  max-width: 320px;
+  max-height: 568px;
+  background-image: url("../img/backgroundimage.jpg");
+  background-size: cover;
+}
+
+#mobile {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 500px;
+  padding: 0px 10px;
+  display:block;
+  background-color: rgba(122, 121, 130, 0.8);
+  border: 2px solid rgba(122, 121, 130, 0.9);
+  overflow: auto;
+}
+
+#about img {
+display: none;
+}
+
+#bio {
+display: none;
+}
+
+#design {
+display: none;
+}
+
+#writing {
+display: none;
+}
+
+#contact {
+display: none;
+}
+
+}
