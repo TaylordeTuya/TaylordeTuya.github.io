@@ -15,13 +15,6 @@ display: none;
 display: none;
 }
 
-#about {
-  max-width: 320px;
-  max-height: 568px;
-  background-image: url("../img/backgroundimage.jpg");
-  background-size: cover;
-}
-
 #mobile {
   display: block;
   margin: 0 auto;
@@ -32,6 +25,10 @@ display: none;
   background-color: rgba(122, 121, 130, 0.8);
   border: 2px solid rgba(122, 121, 130, 0.9);
   overflow: auto;
+}
+
+#about {
+display: none;
 }
 
 #about img {
