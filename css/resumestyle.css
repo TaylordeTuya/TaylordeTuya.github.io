@@ -11,10 +11,8 @@ body {
 
 
 #wrap {
-  max-width: 960px;
-  min-width: 50px;
-  padding: 50px;
-  margin: 20px auto;
+  max-width: 2880px;
+  margin: 0 auto;
   display: block;
   border: 2px solid rgba(130, 123,	148, 0.8);
   overflow: auto;
