@@ -42,6 +42,14 @@ a:hover{
   display:none;
 }
 
+@media (max-width: 1280px){
+  #index {
+    max-width: 100%;
+  }
+
+}
+
+
 #index {
   background-image: url("../img/backgroundimage.jpg");
   background-attachment: fixed;
