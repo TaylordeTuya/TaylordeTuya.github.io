@@ -116,7 +116,6 @@ h3 {
 #programs {
   position: absolute;
   top: 120px;
-  min-width: 50px;
   overflow: auto;
 }
 
@@ -124,14 +123,12 @@ h3 {
   position: absolute;
   top: 120px;
   left: 200px;
-  min-width: 50px;
   overflow: auto;
 }
 
 #directcontact {
   position: absolute;
   top: 120px;
-  min-width: 50px;
   overflow: auto;
 }
 
@@ -139,6 +136,5 @@ h3 {
   position: absolute;
   top: 120px;
   left: 260px;
-  min-width: 50px;
   overflow: auto;
 }
