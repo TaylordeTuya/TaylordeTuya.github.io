@@ -108,7 +108,7 @@ a:hover{
 
 /*Design*/
 #design {
-  background-image: url("../img/backgroundimage2.jpg");
+  background-image: url("../img/backgroundimage.jpg");
   background-attachment: fixed;
   background-size: auto;
 }
@@ -195,7 +195,7 @@ a:hover{
 
 /*prwriting*/
 #writing {
-  background-image: url("../img/backgroundimage2.jpg");
+  background-image: url("../img/backgroundimage.jpg");
   background-attachment: fixed;
   background-size: auto;
 }
