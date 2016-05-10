@@ -8,15 +8,15 @@ body {
 }
 
 /*nav*/
-#index nav {
+#index, nav {
 display: none;
 }
 
-#index #intro {
+#index, #intro {
  display: none;
 }
 
-#index #mobile {
+#index, #mobile {
   display: block;
   margin: 0 auto;
   width: 200px;
