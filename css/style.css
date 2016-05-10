@@ -39,16 +39,8 @@ a:hover{
 /*index*/
 
 #mobile {
-
+display: none;
 }
-
-@media (max-width: 360px){
-  #mobile {
-    max-width: 100%;
-  }
-
-}
-
 
 #index {
   background-image: url("../img/backgroundimage.jpg");
