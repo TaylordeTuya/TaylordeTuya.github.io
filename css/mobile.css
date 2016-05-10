@@ -8,21 +8,13 @@ body {
 }
 
 /*nav*/
-nav, ul {
+nav {
 display: none;
 }
 
-nav, li{
-  display:none;
-}
-
-nav a {
-  display: none;
-}
-
-#intro {
+/*#intro {
  display: none;
-}
+}*/
 
 #index #mobile {
   display: block;
