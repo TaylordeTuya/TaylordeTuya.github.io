@@ -3,6 +3,8 @@
 body {
   font-family: 'Crimson Text', serif;
   font-size: 12px;
+  background-image: url("../img/mobilebackground.jpg");
+  background-size: cover; 
 }
 
 /*nav*/
