@@ -8,13 +8,13 @@ body {
 }
 
 /*nav*/
-nav {
+#index nav {
 display: none;
 }
 
-/*#intro {
+#index #intro {
  display: none;
-}*/
+}
 
 #index #mobile {
   display: block;
