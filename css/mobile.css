@@ -8,21 +8,27 @@ body {
 }
 
 /*nav*/
-nav {
+nav, ul {
 display: none;
+}
+
+nav, li{
+  display:none;
+}
+
+nav a {
+  display: none;
 }
 
 #intro {
  display: none;
 }
 
-#mobile {
+#index #mobile {
   display: block;
   margin: 0 auto;
   width: 200px;
   height: 500px;
-  padding: 0px 10px;
-  display:block;
   background-color: rgba(122, 121, 130, 0.8);
   border: 2px solid rgba(122, 121, 130, 0.9);
   overflow: auto;
