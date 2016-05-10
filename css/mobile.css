@@ -19,12 +19,13 @@ display: none;
 #index #mobile {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 650px;
   height: 800px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgba(122, 121, 130, 0.4);
-  border: 2px solid rgba(122, 121, 130, 0.9);
+  padding-top: 10px;
+  /*background-color: rgba(122, 121, 130, 0.4);
+  border: 2px solid rgba(122, 121, 130, 0.9);*/
   overflow: auto;
 }
 
