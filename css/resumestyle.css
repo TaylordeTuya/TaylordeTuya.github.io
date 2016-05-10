@@ -102,7 +102,6 @@ h3 {
   position: relative;
   width: 440px;
   height: 500px;
-  margin-left: 34px;
 }
 
 #skills {
@@ -110,7 +109,7 @@ h3 {
   position: relative;
   width: 440px;
   height: 500px;
-  margin-right: 34px;
+  margin-right: 68px;
 }
 
 #programs {
