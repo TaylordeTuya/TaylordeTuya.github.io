@@ -39,11 +39,11 @@ a:hover{
 /*index*/
 
 #mobile {
-  display:none;
+
 }
 
 @media (max-width: 360px){
-  #index {
+  #mobile {
     max-width: 100%;
   }
 
